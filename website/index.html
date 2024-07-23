@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Header-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Name</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+    </head>
+    <body>      
+        <!--Home Section-->
+        <div id="particles-js" class="flex-home">
+            <div class="home">
+                <h1 class="line-1">Hello, I'm Your Name.</h1>
+                <h1 class="line-2">I'm a ___Profession___.</h1>
+                <div class="center-home">
+                    <button class="button" style="vertical-align:middle"><a href="/"><span class="homebuttontext">Download CV </span></a></button>
+                    <button class="button" style="vertical-align:middle"><a href="#about"><span class="homebuttontext">About Me</span></a></button>
+                </div>
+            </div>
+        </div>
+
+        <script src="/particles.js"></script>
+        <script src="/app.js"></script>
+
+        <!--Navigation Bar-->
+        <div class="navbar">
+                <ul class="navbar">
+                        <li><a href="#particles-js">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+        </div>
+
+        <!--About Section-->
+        <div id="about" class="flex-about">
+                    <div class="about">
+                        <h1 class="text">About</h1>
+                        <div class="boxes">
+                            <div class="box">
+                                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laboriosam dolor mollitia sapiente architecto quis nisi, omnis quam maiores et corporis, exercitationem quasi incidunt eveniet quas earum ullam cum fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Repellat minus eligendi accusamus maxime blanditiis quaerat magnam enim reiciendis sunt eius, cumque quidem aut? Porro saepe dolor impedit aut perferendis aliquam.</h2>
+                            <div class="box1">
+                                <div class="box2">
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                                        <p>C/C++</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                                        <p>Python</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                                        <p>Java</p>
+                                    </div>
+                                </div>
+                                <div class="box3">
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+                                        <p>Linux/Bash</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/> <p>HTML/CSS</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
+                                <div class="box4">
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+                                        <p>Docker</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" />
+                                      <p>Kubernetes</p>
+                                    </div>
+                                    <div class="itembox">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" /> <p>Git</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+            
+        <!--Project Section-->
+        <div id="project" class="flex-project">
+                        <div class="project">
+                            <h1 class="text">Projects</h1>
+                            <div class="boxes">
+                                <div class="box1">
+                                    <img class="project-img" src="/project-1-screenshot-1.png" >
+                                    <h2 class="nametext">
+                                        Project Name
+                                    </h2>
+                                    <h2 class="infotext" colspan="2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus explicabo perferendis, maxime quam suscipit accusantium corporis, nihil laboriosam aperiam velit quod, nostrum ut consequuntur enim excepturi nobis ducimus deserunt accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quis similique ratione sunt commodi magni corrupti sit ipsam ad quo dicta explicabo accusamus, delectus suscipit consequuntur distinctio minus labore alias!</h2>
+                                    
+                                    <a href="https://github.com/" ><img class="projectlink" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+
+        <!--Contact Section class="flex-container"-->
+        <div id="contact" class="contact">
+                    <form onsubmit="event.preventDefault(); validateForm()">
+                        <h1 class="contacth1">Contact</h1>
+
+                        <label for="formname">Name:</label>
+                        <input type="text" id="formname" placeholder="Name">
+                        <small class="error"></small>   
+
+                        <label for="formemail">Email:</label>
+                        <input type="text" id="formemail" placeholder="Email">
+                        <small class="error"></small>       
+
+                        <label for="formphone">Phone:</label>
+                        <input type="text" id="formphone" placeholder="Phone Number">
+                        <small class="error"></small> 
+
+                        <label for="formmessage">Message:</label>
+                        <textarea id="forminfo" placeholder="Additonal Information" rows="6"></textarea>
+                        <small class="error"></small>   
+
+                        <div class="center">
+                            <input type="submit" value="Send Message">
+                            <p id="formsuccess"></p>
+                        </div>
+                    </form>
+        </div>
+
+        <script src="/script.js"></script>
+        <!--Footer-->
+        <div class="flex-footer">
+            <div class="footer">
+                <p>Your Name&copy;2024</p>
+            </div>
+        </div>
+
+    </body>
+</html>
